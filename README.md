@@ -40,6 +40,10 @@ Databricks allows deployment in a **Customer Managed VPC**, where **you control 
 
 ![AWS CMVPC Databricks NAT Instance Architecture](databricks-cmvpc-architecture.png)
 
+### Documentation(screenshot)
+
+![AWS CMVPC Databricks NAT Instance Architecture](databricks-cmvpc-architecture.doc)
+
 
 
 ## 🛠️ NAT Instance Setup
@@ -67,7 +71,7 @@ EOF
 
 systemctl restart nftables
 ```
-
+Without these, my private EC2 might try to send packets outside, but the response never return — which cause if breaking internet access. It looks like a "Router"
 ## 🔌 Add VPC Endpoints
 
 ### Gateway Endpoint
@@ -250,7 +254,7 @@ These rules **minimize the exposed surface** while still allowing essential mana
 - Route: `0.0.0.0/0 → NAT Instance`
 - This allows **outbound internet traffic from private EC2s** via the NAT instance
 
----
+
 
 ---
 ## 🔗 Next Step
