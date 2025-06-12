@@ -42,7 +42,7 @@ Databricks allows deployment in a **Customer Managed VPC**, where **you control 
 
 ### Documentation(screenshot)
 
-![AWS CMVPC Databricks NAT Instance Architecture](databricks-cmvpc-architecture.doc)
+[Link Text](databricks-cmvpc-architecture.doc)
 
 
 
