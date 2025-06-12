@@ -42,7 +42,7 @@ Databricks allows deployment in a **Customer Managed VPC**, where **you control 
 
 ### Documentation(screenshot)
 
-[Link Text](databricks-cmvpc-architecture.doc)
+![Word](https://img.icons8.com/color/20/000000/ms-word.png) [Download Word File](databricks-cmvpc-architecture.doc)
 
 
 
