@@ -5,7 +5,7 @@
 
 It started over a quiet weekend at home.
 
-As a cloud architect constantly working with enterprise data platforms, I realized I needed something more hands-on, more raw than a managed sandbox. I wanted to simulate a **production-like AWS Databricks setup**—but in a **low-cost, fully controlled way**, without the usual enterprise cloud budget.
+I realized I needed something more hands-on, more raw than a managed sandbox. I wanted to simulate a **production-like AWS Databricks setup**—but in a **low-cost, fully controlled way**, without the usual enterprise cloud budget.
 
 > Build a minimal, cost-optimized Databricks-ready AWS VPC with full private networking, just like in production.
 
